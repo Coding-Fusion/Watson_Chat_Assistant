@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "604658922283",
+    "firebase_url": "https://springas-1522347285198.firebaseio.com",
+    "project_id": "springas-1522347285198",
+    "storage_bucket": "springas-1522347285198.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604658922283:android:85aeeb1bd5727a8b",
+        "android_client_info": {
+          "package_name": "com.example.debrathdev.springas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604658922283-935utshc5tgl850is9n1af890sf95cld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.debrathdev.springas",
+            "certificate_hash": "ebbb9a091c2b2b840afefcef9f291e00c6ac1488"
+          }
+        },
+        {
+          "client_id": "604658922283-p61a3iqaj6rocl4mu1h8ck9i32cnat3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB95b_Ma9AESI35ReVBe96k40fHo0Viyes"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604658922283-p61a3iqaj6rocl4mu1h8ck9i32cnat3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

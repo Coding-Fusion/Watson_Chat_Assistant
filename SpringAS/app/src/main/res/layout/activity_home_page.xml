@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:orientation="vertical"
+    android:background="@drawable/as_l"
+    tools:context="com.example.debrathdev.springas.HomePageActivity">
+
+    <TextView
+        android:id="@+id/assistantTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonTextView2"
+        android:layout_alignEnd="@+id/buttonTextView2"
+        android:layout_marginBottom="144dp"
+        android:ems="10"
+        android:lines="1"
+        android:text="@string/Home_page"
+        android:textColor="#e2dbdb"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <ImageButton
+        android:id="@+id/start_btn"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/loadbutton"
+        android:onClick="go_home_child"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/buttonTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/lucida"
+        android:text="Lets Howl Together"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp"
+        android:typeface="normal" />
+</RelativeLayout>

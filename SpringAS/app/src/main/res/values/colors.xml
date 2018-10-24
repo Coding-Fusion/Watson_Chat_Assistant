@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#691202</color>
+    <color name="colorPrimaryDark">#712504</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="purple">#7c4dff</color>
+    <color name="yellow">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="darkgrey">#6e6e6e</color>
+    <color name="bg_bubble_self">#712c32</color>
+    <color name="bg_bubble_watbot">#ecf0f1</color>
+
+
+</resources>
